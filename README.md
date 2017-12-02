@@ -1,6 +1,6 @@
-##  This is the final assignment project for a course
+##  This is an assignment project for a course
 
-The website of Schukra of North America was rebuilt according to the required goals of this course.
+The website of Schukra of North America was chose and rebuilt according to the required goals of this assignment.
 
 Gulp.js was also utilized to facilitate the front-end development.
 
