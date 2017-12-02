@@ -1,6 +1,6 @@
 ##  This is an assignment project for a course
 
-The website of company was chose and rebuilt according to the required goals of this assignment.
+The website of a company was chosen and rebuilt according to the required goals of this assignment.
 
 Gulp.js was also utilized to facilitate the front-end development.
 
