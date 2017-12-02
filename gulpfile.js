@@ -3,7 +3,6 @@ const sass = require('gulp-sass');
 const uglifycss=require('gulp-uglifycss');
 const browserSync = require('browser-sync').create();
 const del=require('del');
-//var uglifyjs=require('gulp-uglify');
 const pump=require('pump');
 const concat=require('gulp-concat');
 const runSequence=require('run-sequence');
@@ -43,11 +42,6 @@ gulp.task('copy', function () {
 	.pipe(browserSync.reload({
 		stream: true
 	}));
-//	gulp.src('source/js/*.js')
-//	.pipe(gulp.dest('prod/ui'))
-//	.pipe(browserSync.reload({
-//		stream: true
-//	}));
 		
 	gulp.src('source/img/*.*')
 	.pipe(gulp.dest('prod/img'))
