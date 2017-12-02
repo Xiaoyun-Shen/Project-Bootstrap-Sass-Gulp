@@ -1,0 +1,43 @@
+
+.jumbotron{
+    background-image: url(../img/leather-pattern.jpg);    
+	h2{
+		color:white;
+	}	
+	h1{
+		@extend h2;
+		font-weight:bold;
+	}		
+	h3{
+		@extend h2;
+		opacity: 0.75;
+	}
+}	
+
+
+nav ul{
+    margin-top: 20px; 
+	li a{
+		color:$primary-color;
+		font-weight: bold;
+		font-size:1.2em;
+	}
+}
+
+
+.full-width-image {
+   border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+    height: 280px;
+    @media (min-width: 768px) {
+        height: 350px;
+    }
+}
+
+.carousel-images {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
