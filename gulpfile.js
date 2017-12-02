@@ -1,13 +1,13 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const uglifycss=require('gulp-uglifycss');
-const browserSync = require('browser-sync').create();
+const browserSync = require('browser-sync').create();//Keep multiple browsers & devices in sync when building websites.
 const del=require('del');
-const pump=require('pump');
+const pump=require('pump');//pipes streams together and destroys all of them if one of them closes.
 const concat=require('gulp-concat');
 const runSequence=require('run-sequence');
-const sourcemaps=require('gulp-sourcemaps');
-const babel=require('gulp-babel');
+const sourcemaps=require('gulp-sourcemaps');//Inline source maps are embedded in the source file.
+const babel=require('gulp-babel');//Babel has support for the latest version of JavaScript through syntax transformers.
 
 gulp.task('clean',function(){
 	return del.sync('prod');
